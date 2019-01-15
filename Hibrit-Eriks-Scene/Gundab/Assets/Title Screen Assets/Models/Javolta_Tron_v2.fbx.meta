@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 4d31c3318c78c5c43af798c888859747
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BigWheel1
+    100002: BigWheel2
+    100004: CarFace
+    100006: DickCar
+    100008: Engine
+    100010: Feet_L
+    100012: Feet_L 1
+    100014: ForeArmL
+    100016: ForeArmR
+    100018: ForeArmR 1
+    100020: Head_Light
+    100022: Headlight
+    100024: Headlighthead1
+    100026: Headlighthead2
+    100028: //RootNode
+    100030: KneeL
+    100032: KneeL 1
+    100034: Leg
+    100036: Leg 1
+    100038: Leg1
+    100040: Leg2
+    100042: MicCheck
+    100044: MotorChest
+    100046: pCube10
+    100048: pCube10 1
+    100050: pCube13
+    100052: pCube13 1
+    100054: pCube7
+    100056: pCube8
+    100058: pCylinder14
+    100060: pCylinder15
+    100062: pCylinder16
+    100064: pCylinder17
+    100066: pCylinder18
+    100068: pCylinder19
+    100070: pCylinder20
+    100072: pCylinder21
+    100074: pCylinder25
+    100076: pCylinder25 1
+    100078: pCylinder36
+    100080: pCylinder36 1
+    100082: pCylinder37
+    100084: pCylinder37 1
+    100086: pCylinder38
+    100088: pCylinder38 1
+    100090: pCylinder39
+    100092: pCylinder39 1
+    100094: pCylinder40
+    100096: pCylinder40 1
+    100098: pCylinder41
+    100100: pCylinder41 1
+    100102: pCylinder42
+    100104: pCylinder42 1
+    100106: pCylinder43
+    100108: pCylinder43 1
+    100110: pCylinder44
+    100112: pCylinder44 1
+    100114: pCylinder45
+    100116: pCylinder46
+    100118: pCylinder46 1
+    100120: SwitchComb
+    100122: transform1
+    100124: transform2
+    100126: UnderLegL
+    100128: UnderLegL 1
+    100130: UpperLegL
+    100132: UpperLegL 1
+    100134: Wheel1
+    100136: Wheel2
+    400000: BigWheel1
+    400002: BigWheel2
+    400004: CarFace
+    400006: DickCar
+    400008: Engine
+    400010: Feet_L
+    400012: Feet_L 1
+    400014: ForeArmL
+    400016: ForeArmR
+    400018: ForeArmR 1
+    400020: Head_Light
+    400022: Headlight
+    400024: Headlighthead1
+    400026: Headlighthead2
+    400028: //RootNode
+    400030: KneeL
+    400032: KneeL 1
+    400034: Leg
+    400036: Leg 1
+    400038: Leg1
+    400040: Leg2
+    400042: MicCheck
+    400044: MotorChest
+    400046: pCube10
+    400048: pCube10 1
+    400050: pCube13
+    400052: pCube13 1
+    400054: pCube7
+    400056: pCube8
+    400058: pCylinder14
+    400060: pCylinder15
+    400062: pCylinder16
+    400064: pCylinder17
+    400066: pCylinder18
+    400068: pCylinder19
+    400070: pCylinder20
+    400072: pCylinder21
+    400074: pCylinder25
+    400076: pCylinder25 1
+    400078: pCylinder36
+    400080: pCylinder36 1
+    400082: pCylinder37
+    400084: pCylinder37 1
+    400086: pCylinder38
+    400088: pCylinder38 1
+    400090: pCylinder39
+    400092: pCylinder39 1
+    400094: pCylinder40
+    400096: pCylinder40 1
+    400098: pCylinder41
+    400100: pCylinder41 1
+    400102: pCylinder42
+    400104: pCylinder42 1
+    400106: pCylinder43
+    400108: pCylinder43 1
+    400110: pCylinder44
+    400112: pCylinder44 1
+    400114: pCylinder45
+    400116: pCylinder46
+    400118: pCylinder46 1
+    400120: SwitchComb
+    400122: transform1
+    400124: transform2
+    400126: UnderLegL
+    400128: UnderLegL 1
+    400130: UpperLegL
+    400132: UpperLegL 1
+    400134: Wheel1
+    400136: Wheel2
+    2100000: lambert2
+    2300000: BigWheel1
+    2300002: BigWheel2
+    2300004: CarFace
+    2300006: DickCar
+    2300008: Engine
+    2300010: Feet_L
+    2300012: Feet_L 1
+    2300014: ForeArmL
+    2300016: ForeArmR
+    2300018: ForeArmR 1
+    2300020: Head_Light
+    2300022: Headlight
+    2300024: Headlighthead1
+    2300026: Headlighthead2
+    2300028: //RootNode
+    2300030: KneeL
+    2300032: KneeL 1
+    2300034: MicCheck
+    2300036: MotorChest
+    2300038: pCube10
+    2300040: pCube10 1
+    2300042: pCube13
+    2300044: pCube13 1
+    2300046: pCube7
+    2300048: pCube8
+    2300050: pCylinder14
+    2300052: pCylinder15
+    2300054: pCylinder16
+    2300056: pCylinder17
+    2300058: pCylinder18
+    2300060: pCylinder19
+    2300062: pCylinder20
+    2300064: pCylinder21
+    2300066: pCylinder25
+    2300068: pCylinder25 1
+    2300070: pCylinder36
+    2300072: pCylinder36 1
+    2300074: pCylinder37
+    2300076: pCylinder37 1
+    2300078: pCylinder38
+    2300080: pCylinder38 1
+    2300082: pCylinder39
+    2300084: pCylinder39 1
+    2300086: pCylinder40
+    2300088: pCylinder40 1
+    2300090: pCylinder41
+    2300092: pCylinder41 1
+    2300094: pCylinder42
+    2300096: pCylinder42 1
+    2300098: pCylinder43
+    2300100: pCylinder43 1
+    2300102: pCylinder44
+    2300104: pCylinder44 1
+    2300106: pCylinder45
+    2300108: pCylinder46
+    2300110: pCylinder46 1
+    2300112: SwitchComb
+    2300114: UnderLegL
+    2300116: UnderLegL 1
+    2300118: UpperLegL
+    2300120: UpperLegL 1
+    2300122: Wheel1
+    2300124: Wheel2
+    3300000: BigWheel1
+    3300002: BigWheel2
+    3300004: CarFace
+    3300006: DickCar
+    3300008: Engine
+    3300010: Feet_L
+    3300012: Feet_L 1
+    3300014: ForeArmL
+    3300016: ForeArmR
+    3300018: ForeArmR 1
+    3300020: Head_Light
+    3300022: Headlight
+    3300024: Headlighthead1
+    3300026: Headlighthead2
+    3300028: //RootNode
+    3300030: KneeL
+    3300032: KneeL 1
+    3300034: MicCheck
+    3300036: MotorChest
+    3300038: pCube10
+    3300040: pCube10 1
+    3300042: pCube13
+    3300044: pCube13 1
+    3300046: pCube7
+    3300048: pCube8
+    3300050: pCylinder14
+    3300052: pCylinder15
+    3300054: pCylinder16
+    3300056: pCylinder17
+    3300058: pCylinder18
+    3300060: pCylinder19
+    3300062: pCylinder20
+    3300064: pCylinder21
+    3300066: pCylinder25
+    3300068: pCylinder25 1
+    3300070: pCylinder36
+    3300072: pCylinder36 1
+    3300074: pCylinder37
+    3300076: pCylinder37 1
+    3300078: pCylinder38
+    3300080: pCylinder38 1
+    3300082: pCylinder39
+    3300084: pCylinder39 1
+    3300086: pCylinder40
+    3300088: pCylinder40 1
+    3300090: pCylinder41
+    3300092: pCylinder41 1
+    3300094: pCylinder42
+    3300096: pCylinder42 1
+    3300098: pCylinder43
+    3300100: pCylinder43 1
+    3300102: pCylinder44
+    3300104: pCylinder44 1
+    3300106: pCylinder45
+    3300108: pCylinder46
+    3300110: pCylinder46 1
+    3300112: SwitchComb
+    3300114: UnderLegL
+    3300116: UnderLegL 1
+    3300118: UpperLegL
+    3300120: UpperLegL 1
+    3300122: Wheel1
+    3300124: Wheel2
+    4300000: Torso
+    4300002: MotorChest
+    4300004: Engine
+    4300006: pCube8
+    4300008: pCylinder18
+    4300010: pCylinder21
+    4300012: pCube7
+    4300014: pCylinder16
+    4300016: pCylinder14
+    4300018: pCylinder19
+    4300020: pCylinder15
+    4300022: pCylinder17
+    4300024: pCylinder20
+    4300026: CarFace
+    4300028: MicCheck
+    4300030: Headlighthead1
+    4300032: Headlighthead2
+    4300034: Wheel1
+    4300036: Wheel2
+    4300038: DickCar
+    4300040: Headlight
+    4300042: Head_Light
+    4300044: BigWheel2
+    4300046: BigWheel1
+    4300048: UpperLegL
+    4300050: pCylinder41
+    4300052: KneeL
+    4300054: pCylinder46
+    4300056: pCube10
+    4300058: pCylinder25
+    4300060: UnderLegL
+    4300062: pCylinder40
+    4300064: pCube13
+    4300066: Feet_L
+    4300068: pCylinder38
+    4300070: pCylinder37
+    4300072: pCylinder39
+    4300074: pCylinder36
+    4300076: UpperLegL
+    4300078: pCylinder41
+    4300080: KneeL
+    4300082: pCylinder46
+    4300084: pCube10
+    4300086: pCylinder25
+    4300088: UnderLegL
+    4300090: pCylinder40
+    4300092: pCube13
+    4300094: Feet_L
+    4300096: pCylinder38
+    4300098: pCylinder37
+    4300100: pCylinder39
+    4300102: pCylinder36
+    4300104: ForeArmL
+    4300106: pCylinder43
+    4300108: pCylinder42
+    4300110: pCylinder44
+    4300112: SwitchComb
+    4300114: ForeArmR
+    4300116: pCylinder43
+    4300118: ForeArmR
+    4300120: pCylinder45
+    4300122: pCylinder42
+    4300124: pCylinder44
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: d514954c72329654d9f6a953de44eef7
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BigWheel1
+    100002: BigWheel2
+    100004: Body
+    100006: CarFace
+    100008: Engine
+    100010: ForeArmR
+    100012: ForeArmR2
+    100014: ForeArmR3
+    100016: Head_Light
+    100018: Headlight
+    100020: Headlighthead1
+    100022: Headlighthead2
+    100024: //RootNode
+    100026: Leg1
+    100028: Leg2
+    100030: MicCheck
+    100032: MotorChest
+    100034: pCube10
+    100036: pCube10 1
+    100038: pCube13
+    100040: pCube13 1
+    100042: pCube15
+    100044: pCube7
+    100046: pCube8
+    100048: pCylinder14
+    100050: pCylinder15
+    100052: pCylinder16
+    100054: pCylinder17
+    100056: pCylinder18
+    100058: pCylinder19
+    100060: pCylinder20
+    100062: pCylinder21
+    100064: pCylinder25
+    100066: pCylinder35
+    100068: pCylinder35 1
+    100070: pCylinder36
+    100072: pCylinder37
+    100074: pCylinder37 1
+    100076: pCylinder38
+    100078: pCylinder38 1
+    100080: pCylinder39
+    100082: pCylinder39 1
+    100084: pCylinder40
+    100086: pCylinder40 1
+    100088: pCylinder41
+    100090: pCylinder41 1
+    100092: pCylinder42
+    100094: pCylinder42 1
+    100096: pCylinder43
+    100098: pCylinder43 1
+    100100: pCylinder44
+    100102: pCylinder44 1
+    100104: pCylinder45
+    100106: pCylinder46
+    100108: SwitchComb
+    100110: Wheel1
+    100112: Wheel2
+    400000: BigWheel1
+    400002: BigWheel2
+    400004: Body
+    400006: CarFace
+    400008: Engine
+    400010: ForeArmR
+    400012: ForeArmR2
+    400014: ForeArmR3
+    400016: Head_Light
+    400018: Headlight
+    400020: Headlighthead1
+    400022: Headlighthead2
+    400024: //RootNode
+    400026: Leg1
+    400028: Leg2
+    400030: MicCheck
+    400032: MotorChest
+    400034: pCube10
+    400036: pCube10 1
+    400038: pCube13
+    400040: pCube13 1
+    400042: pCube15
+    400044: pCube7
+    400046: pCube8
+    400048: pCylinder14
+    400050: pCylinder15
+    400052: pCylinder16
+    400054: pCylinder17
+    400056: pCylinder18
+    400058: pCylinder19
+    400060: pCylinder20
+    400062: pCylinder21
+    400064: pCylinder25
+    400066: pCylinder35
+    400068: pCylinder35 1
+    400070: pCylinder36
+    400072: pCylinder37
+    400074: pCylinder37 1
+    400076: pCylinder38
+    400078: pCylinder38 1
+    400080: pCylinder39
+    400082: pCylinder39 1
+    400084: pCylinder40
+    400086: pCylinder40 1
+    400088: pCylinder41
+    400090: pCylinder41 1
+    400092: pCylinder42
+    400094: pCylinder42 1
+    400096: pCylinder43
+    400098: pCylinder43 1
+    400100: pCylinder44
+    400102: pCylinder44 1
+    400104: pCylinder45
+    400106: pCylinder46
+    400108: SwitchComb
+    400110: Wheel1
+    400112: Wheel2
+    2100000: lambert1
+    2300000: BigWheel1
+    2300002: BigWheel2
+    2300004: Body
+    2300006: CarFace
+    2300008: Engine
+    2300010: ForeArmR
+    2300012: ForeArmR2
+    2300014: ForeArmR3
+    2300016: Head_Light
+    2300018: Headlight
+    2300020: Headlighthead1
+    2300022: Headlighthead2
+    2300024: Leg1
+    2300026: Leg2
+    2300028: MicCheck
+    2300030: MotorChest
+    2300032: pCube10
+    2300034: pCube10 1
+    2300036: pCube13
+    2300038: pCube13 1
+    2300040: pCube15
+    2300042: pCube7
+    2300044: pCube8
+    2300046: pCylinder14
+    2300048: pCylinder15
+    2300050: pCylinder16
+    2300052: pCylinder17
+    2300054: pCylinder18
+    2300056: pCylinder19
+    2300058: pCylinder20
+    2300060: pCylinder21
+    2300062: pCylinder25
+    2300064: pCylinder35
+    2300066: pCylinder35 1
+    2300068: pCylinder36
+    2300070: pCylinder37
+    2300072: pCylinder37 1
+    2300074: pCylinder38
+    2300076: pCylinder38 1
+    2300078: pCylinder39
+    2300080: pCylinder39 1
+    2300082: pCylinder40
+    2300084: pCylinder40 1
+    2300086: pCylinder41
+    2300088: pCylinder41 1
+    2300090: pCylinder42
+    2300092: pCylinder42 1
+    2300094: pCylinder43
+    2300096: pCylinder43 1
+    2300098: pCylinder44
+    2300100: pCylinder44 1
+    2300102: pCylinder45
+    2300104: pCylinder46
+    2300106: SwitchComb
+    2300108: Wheel1
+    2300110: Wheel2
+    3300000: BigWheel1
+    3300002: BigWheel2
+    3300004: Body
+    3300006: CarFace
+    3300008: Engine
+    3300010: ForeArmR
+    3300012: ForeArmR2
+    3300014: ForeArmR3
+    3300016: Head_Light
+    3300018: Headlight
+    3300020: Headlighthead1
+    3300022: Headlighthead2
+    3300024: Leg1
+    3300026: Leg2
+    3300028: MicCheck
+    3300030: MotorChest
+    3300032: pCube10
+    3300034: pCube10 1
+    3300036: pCube13
+    3300038: pCube13 1
+    3300040: pCube15
+    3300042: pCube7
+    3300044: pCube8
+    3300046: pCylinder14
+    3300048: pCylinder15
+    3300050: pCylinder16
+    3300052: pCylinder17
+    3300054: pCylinder18
+    3300056: pCylinder19
+    3300058: pCylinder20
+    3300060: pCylinder21
+    3300062: pCylinder25
+    3300064: pCylinder35
+    3300066: pCylinder35 1
+    3300068: pCylinder36
+    3300070: pCylinder37
+    3300072: pCylinder37 1
+    3300074: pCylinder38
+    3300076: pCylinder38 1
+    3300078: pCylinder39
+    3300080: pCylinder39 1
+    3300082: pCylinder40
+    3300084: pCylinder40 1
+    3300086: pCylinder41
+    3300088: pCylinder41 1
+    3300090: pCylinder42
+    3300092: pCylinder42 1
+    3300094: pCylinder43
+    3300096: pCylinder43 1
+    3300098: pCylinder44
+    3300100: pCylinder44 1
+    3300102: pCylinder45
+    3300104: pCylinder46
+    3300106: SwitchComb
+    3300108: Wheel1
+    3300110: Wheel2
+    4300000: Wheel1
+    4300002: Body
+    4300004: BigWheel2
+    4300006: Wheel2
+    4300008: BigWheel1
+    4300010: Head_Light
+    4300012: Headlight
+    4300014: Headlighthead1
+    4300016: Headlighthead2
+    4300018: MotorChest
+    4300020: CarFace
+    4300022: Leg1
+    4300024: pCylinder39
+    4300026: pCylinder37
+    4300028: pCylinder38
+    4300030: pCylinder40
+    4300032: pCube13
+    4300034: pCylinder35
+    4300036: pCube10
+    4300038: pCylinder41
+    4300040: pCylinder25
+    4300042: MicCheck
+    4300044: Engine
+    4300046: pCube8
+    4300048: pCylinder18
+    4300050: pCylinder21
+    4300052: pCube7
+    4300054: pCylinder16
+    4300056: pCylinder14
+    4300058: pCylinder19
+    4300060: pCylinder15
+    4300062: pCylinder17
+    4300064: pCylinder20
+    4300066: ForeArmR2
+    4300068: pCylinder43
+    4300070: ForeArmR
+    4300072: pCylinder45
+    4300074: pCylinder42
+    4300076: pCylinder44
+    4300078: pCylinder36
+    4300080: ForeArmR3
+    4300082: pCylinder43
+    4300084: pCylinder42
+    4300086: pCylinder44
+    4300088: SwitchComb
+    4300090: Leg2
+    4300092: pCylinder39
+    4300094: pCylinder37
+    4300096: pCylinder38
+    4300098: pCylinder40
+    4300100: pCube13
+    4300102: pCylinder35
+    4300104: pCube10
+    4300106: pCylinder41
+    4300108: pCylinder46
+    4300110: pCube15
+    7400000: Take 001
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

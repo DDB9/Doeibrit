@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 8d997fefb5fb2c245a74ffc5732332e2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: arm2 1
+    100006: arm4
+    100008: back_pipe_bit
+    100010: band1
+    100012: band1 1
+    100014: band2
+    100016: band2 1
+    100018: battery
+    100020: battery 1
+    100022: black_in_helmet
+    100024: feather1
+    100026: feather2
+    100028: foot2
+    100030: foot3
+    100032: hand
+    100034: hand 1
+    100036: helmet_core
+    100038: hips
+    100040: joint1
+    100042: joint10
+    100044: joint11
+    100046: joint12
+    100048: joint12 1
+    100050: joint13
+    100052: joint13 1
+    100054: joint14
+    100056: joint14 1
+    100058: joint15
+    100060: joint15 1
+    100062: joint16
+    100064: joint16 1
+    100066: joint2
+    100068: joint23
+    100070: joint27
+    100072: joint3
+    100074: joint3 1
+    100076: joint4
+    100078: joint4 1
+    100080: joint5
+    100082: joint6
+    100084: joint7
+    100086: joint8
+    100088: joint9
+    100090: leg2
+    100092: leg2 1
+    100094: leg3
+    100096: leg3 1
+    100098: leg5
+    100100: leg6
+    100102: //RootNode
+    100104: pCylinder1
+    100106: pCylinder1 1
+    100108: pCylinder17
+    100110: pCylinder18
+    100112: pCylinder19
+    100114: pCylinder19 1
+    100116: pCylinder2
+    100118: pCylinder2 1
+    100120: pCylinder2 2
+    100122: pCylinder2 3
+    100124: pCylinder22
+    100126: pCylinder23
+    100128: pCylinder24
+    100130: pCylinder25
+    100132: pCylinder3
+    100134: pCylinder3 1
+    100136: pipe
+    100138: pipe2
+    100140: pSphere3
+    100142: pSphere3 1
+    100144: Shoulderpad
+    100146: Shoulderpad 1
+    100148: sword
+    100150: torso1
+    100152: torso2
+    100154: transform1
+    400000: arm1
+    400002: arm2
+    400004: arm2 1
+    400006: arm4
+    400008: back_pipe_bit
+    400010: band1
+    400012: band1 1
+    400014: band2
+    400016: band2 1
+    400018: battery
+    400020: battery 1
+    400022: black_in_helmet
+    400024: feather1
+    400026: feather2
+    400028: foot2
+    400030: foot3
+    400032: hand
+    400034: hand 1
+    400036: helmet_core
+    400038: hips
+    400040: joint1
+    400042: joint10
+    400044: joint11
+    400046: joint12
+    400048: joint12 1
+    400050: joint13
+    400052: joint13 1
+    400054: joint14
+    400056: joint14 1
+    400058: joint15
+    400060: joint15 1
+    400062: joint16
+    400064: joint16 1
+    400066: joint2
+    400068: joint23
+    400070: joint27
+    400072: joint3
+    400074: joint3 1
+    400076: joint4
+    400078: joint4 1
+    400080: joint5
+    400082: joint6
+    400084: joint7
+    400086: joint8
+    400088: joint9
+    400090: leg2
+    400092: leg2 1
+    400094: leg3
+    400096: leg3 1
+    400098: leg5
+    400100: leg6
+    400102: //RootNode
+    400104: pCylinder1
+    400106: pCylinder1 1
+    400108: pCylinder17
+    400110: pCylinder18
+    400112: pCylinder19
+    400114: pCylinder19 1
+    400116: pCylinder2
+    400118: pCylinder2 1
+    400120: pCylinder2 2
+    400122: pCylinder2 3
+    400124: pCylinder22
+    400126: pCylinder23
+    400128: pCylinder24
+    400130: pCylinder25
+    400132: pCylinder3
+    400134: pCylinder3 1
+    400136: pipe
+    400138: pipe2
+    400140: pSphere3
+    400142: pSphere3 1
+    400144: Shoulderpad
+    400146: Shoulderpad 1
+    400148: sword
+    400150: torso1
+    400152: torso2
+    400154: transform1
+    2100000: lambert1
+    2100002: lambert2
+    2300000: arm1
+    2300002: arm2
+    2300004: arm2 1
+    2300006: arm4
+    2300008: back_pipe_bit
+    2300010: band1
+    2300012: band1 1
+    2300014: band2
+    2300016: band2 1
+    2300018: battery
+    2300020: battery 1
+    2300022: black_in_helmet
+    2300024: feather1
+    2300026: feather2
+    2300028: foot2
+    2300030: foot3
+    2300032: hand
+    2300034: hand 1
+    2300036: helmet_core
+    2300038: hips
+    2300040: leg2
+    2300042: leg2 1
+    2300044: leg3
+    2300046: leg3 1
+    2300048: leg5
+    2300050: leg6
+    2300052: pCylinder1
+    2300054: pCylinder1 1
+    2300056: pCylinder17
+    2300058: pCylinder18
+    2300060: pCylinder19
+    2300062: pCylinder19 1
+    2300064: pCylinder2
+    2300066: pCylinder2 1
+    2300068: pCylinder2 2
+    2300070: pCylinder2 3
+    2300072: pCylinder22
+    2300074: pCylinder23
+    2300076: pCylinder24
+    2300078: pCylinder25
+    2300080: pCylinder3
+    2300082: pCylinder3 1
+    2300084: pipe
+    2300086: pipe2
+    2300088: pSphere3
+    2300090: pSphere3 1
+    2300092: Shoulderpad
+    2300094: Shoulderpad 1
+    2300096: sword
+    2300098: torso1
+    2300100: torso2
+    3300000: arm1
+    3300002: arm2
+    3300004: arm2 1
+    3300006: arm4
+    3300008: back_pipe_bit
+    3300010: band1
+    3300012: band1 1
+    3300014: band2
+    3300016: band2 1
+    3300018: battery
+    3300020: battery 1
+    3300022: black_in_helmet
+    3300024: feather1
+    3300026: feather2
+    3300028: foot2
+    3300030: foot3
+    3300032: hand
+    3300034: hand 1
+    3300036: helmet_core
+    3300038: hips
+    3300040: leg2
+    3300042: leg2 1
+    3300044: leg3
+    3300046: leg3 1
+    3300048: leg5
+    3300050: leg6
+    3300052: pCylinder1
+    3300054: pCylinder1 1
+    3300056: pCylinder17
+    3300058: pCylinder18
+    3300060: pCylinder19
+    3300062: pCylinder19 1
+    3300064: pCylinder2
+    3300066: pCylinder2 1
+    3300068: pCylinder2 2
+    3300070: pCylinder2 3
+    3300072: pCylinder22
+    3300074: pCylinder23
+    3300076: pCylinder24
+    3300078: pCylinder25
+    3300080: pCylinder3
+    3300082: pCylinder3 1
+    3300084: pipe
+    3300086: pipe2
+    3300088: pSphere3
+    3300090: pSphere3 1
+    3300092: Shoulderpad
+    3300094: Shoulderpad 1
+    3300096: sword
+    3300098: torso1
+    3300100: torso2
+    4300000: hips
+    4300002: leg5
+    4300004: pCylinder2
+    4300006: pCylinder3
+    4300008: pCylinder22
+    4300010: leg3
+    4300012: leg2
+    4300014: foot2
+    4300016: band1
+    4300018: band2
+    4300020: torso1
+    4300022: battery
+    4300024: pCylinder18
+    4300026: pCylinder25
+    4300028: torso2
+    4300030: battery
+    4300032: helmet_core
+    4300034: back_pipe_bit
+    4300036: black_in_helmet
+    4300038: pipe2
+    4300040: pipe
+    4300042: feather1
+    4300044: feather2
+    4300046: pCylinder1
+    4300048: arm1
+    4300050: pCylinder2
+    4300052: arm2
+    4300054: hand
+    4300056: pCylinder19
+    4300058: sword
+    4300060: Shoulderpad
+    4300062: pSphere3
+    4300064: pCylinder1
+    4300066: arm4
+    4300068: pCylinder2
+    4300070: arm2
+    4300072: pCylinder19
+    4300074: hand
+    4300076: Shoulderpad
+    4300078: pSphere3
+    4300080: pCylinder17
+    4300082: pCylinder24
+    4300084: leg6
+    4300086: pCylinder2
+    4300088: pCylinder3
+    4300090: pCylinder23
+    4300092: leg3
+    4300094: leg2
+    4300096: foot3
+    4300098: band1
+    4300100: band2
+    7400000: attack
+    7400002: Retract
+    7400004: Damaged
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Retract
+      takeName: Take 001
+      firstFrame: 64
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Damaged
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
