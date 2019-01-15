@@ -1198,7 +1198,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 2}
+  m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &88108179
 Transform:
@@ -16428,7 +16428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkMark: {fileID: 815704015}
-  cubeman: {fileID: 0}
+  cubeman: {fileID: 1677014490}
   RHCollider: {fileID: 88108177}
   LHCollider: {fileID: 2041788262}
   RKCollider: {fileID: 1599625087}
@@ -27157,7 +27157,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 2}
+  m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1617482342
 GameObject:
@@ -27813,6 +27813,11 @@ Transform:
   m_Father: {fileID: 2069241647}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1677014490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400036, guid: ed1c50b3cebc9374f9da79ca55dd4e4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 721049769}
 --- !u!1 &1679701300
 GameObject:
   m_ObjectHideFlags: 0
@@ -30588,7 +30593,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 2}
+  m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1853060851
 GameObject:
@@ -32447,7 +32452,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 2}
+  m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2042287618 stripped
 Transform:
