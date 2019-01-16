@@ -3362,8 +3362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0fe4fcbe318cc429ade5e61c0973a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 10
-  SnapDistance: 0.25
+  MoveSpeed: 1000
+  SnapDistance: 14.11
   MainAxis: {fileID: 1374483411}
   ShakeAxis: {fileID: 1817901855}
 --- !u!1 &223139119
@@ -17216,12 +17216,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hackerImage: {fileID: 1404036150}
   hackWindow: {fileID: 481074938}
-  intensity: 0
-  shakes: 0
-  speed: 0
-  intensity_hack: 0
-  shakes_hack: 0
-  speed_hack: 0
+  UICamera: {fileID: 217795380}
+  intensity: 10
+  shakes: 25
+  speed: 1000
+  intensity_hack: 0.7
+  shakes_hack: 205
+  speed_hack: 3000
 --- !u!225 &1065511803
 CanvasGroup:
   m_ObjectHideFlags: 0
