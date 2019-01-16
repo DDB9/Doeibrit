@@ -4,14 +4,6 @@ using UnityEngine;
 
 public class UCRTrigger: MonoBehaviour {
 
-    private void Update()
-    {
-        DisplayScript.leftArmInPlace = false;
-        DisplayScript.rightArmInPlace = false;
-        DisplayScript.leftLegInPlace = false;
-        DisplayScript.rightLegInPlace = false;
-    }
-
     void OnTriggerStay(Collider other)
     {
         if (this.name == "LeftHandCollider")
