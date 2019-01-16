@@ -19,6 +19,8 @@ public class JammerController : MonoBehaviour {
 
     public Text hackWindow;
 
+    public Camera UICamera;
+
     //these are my awesome Camera Shake variables
     public float intensity;
     public int shakes;
@@ -53,7 +55,7 @@ public class JammerController : MonoBehaviour {
             hackerImage.SetActive(true);
             TimerScript.startTime = Time.time;
             beingHacked = true;
-            Camera.main.GetComponent<CameraControl>().Shake(intensity_hack, shakes_hack, speed_hack);
+            UICamera.GetComponent<CameraControl>().Shake(intensity_hack, shakes_hack, speed_hack);
 
         }
 
@@ -140,7 +142,7 @@ public class JammerController : MonoBehaviour {
     public void DamageTaken()
     {
         Debug.Log("SCREEN SHAKE");
-        Camera.main.GetComponent<CameraControl>().Shake(intensity, shakes, speed);
+        UICamera.GetComponent<CameraControl>().Shake(intensity, shakes, speed);
         
     }
 

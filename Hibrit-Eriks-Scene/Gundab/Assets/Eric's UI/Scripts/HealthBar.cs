@@ -12,6 +12,7 @@ public class HealthBar : MonoBehaviour
     public Text ratioTextEnemy;
 
     public GameObject yousuck;
+    public GameObject winningIMG;
 
     public TextMesh damageValueEasy;
     public TextMesh damageValueMid;
@@ -91,7 +92,7 @@ public class HealthBar : MonoBehaviour
     public void TakeDamage(float damage)
     {
         hitpoint -= damage;
-        if (hitpoint < 0)
+        if (hitpoint < 1)
         {
             hitpoint = 0;
             ratioText.text = "DEAD";
@@ -103,7 +104,11 @@ public class HealthBar : MonoBehaviour
     public void DealDamage()
     {
         hitpointEnemy -= damageEnemy;
-
+        if(hitpointEnemy < 1)
+        {
+            hitpoint = 0;
+            winningIMG.SetActive(true);
+        }
         UpdateHealthbar();
     }
 
