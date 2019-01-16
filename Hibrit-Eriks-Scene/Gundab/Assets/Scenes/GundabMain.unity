@@ -4220,7 +4220,7 @@ MonoBehaviour:
   explainHardWireframe: {fileID: 101252863}
   maxPosesEasy: 4
   maxPosesMid: 5
-  maxPosesHard: 4
+  maxPosesHard: 3
 --- !u!95 &332904902
 Animator:
   serializedVersion: 3
@@ -20351,7 +20351,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1458212605
 RectTransform:
   m_ObjectHideFlags: 0
