@@ -7,7 +7,7 @@ public class DisplayScript : MonoBehaviour {
 
     public static DisplayScript instance = null;
 
-    public static int pose = 1;         // This ingeter resembles the current pose. 
+    public static int pose;         // This ingeter resembles the current pose. 
 
     public GameObject checkMark;
     public Transform cubeman;       // Transform of the Cubeman rig.
@@ -93,11 +93,18 @@ public class DisplayScript : MonoBehaviour {
 
         switch (pose)
         {
+            case 0:
+                RHCollider.transform.position = new Vector3(0, 9, 0);
+                LHCollider.transform.position = new Vector3(0, 9, 0);
+                RKCollider.transform.position = new Vector3(0, 9, 0);
+                LKCollider.transform.position = new Vector3(0, 9, 0);
+
+                break;
 
             case 1:  // EZ_CHEER
                 // Position the colliders.
                 RHCollider.transform.position = new Vector3(cubeman.position.x + 1.41f, 3.05f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + -2.14f, 3.05f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -1.51f, 3.05f, cubeman.position.z);
                 RKCollider.transform.position = new Vector3(cubeman.position.x + 0.5f, -0.2f, cubeman.position.z);
                 LKCollider.transform.position = new Vector3(cubeman.position.x + -0.5f, -0.2f, cubeman.position.z);
 
@@ -112,9 +119,9 @@ public class DisplayScript : MonoBehaviour {
             case 2: // EZ_DAB
                 // Position the colliders.
                 RHCollider.transform.position = new Vector3(cubeman.position.x, 2.16f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + -1.46f, 3.62f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.63f, 0f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.63f, 0f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -1.41f, 3f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.3f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.3f, 0f, cubeman.position.z);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -128,8 +135,8 @@ public class DisplayScript : MonoBehaviour {
                 // Position the colliders.
                 RHCollider.transform.position = new Vector3(cubeman.position.x + 0.76f, 2.19f, cubeman.position.z);
                 LHCollider.transform.position = new Vector3(cubeman.position.x, 2.372f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.654f, 0f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.654f, 0f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.3f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.3f, 0f, cubeman.position.z);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -141,10 +148,10 @@ public class DisplayScript : MonoBehaviour {
 
             case 4: // EZ_FLEX
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + -2.6f, 6.87f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + -2.6f, 8.24f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 2.04f, 0f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + -1.17f, 0f, cubeman.position.z);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + -1.302f, 2.683f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -1.153f, 2.56f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.3f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.3f, 0f, cubeman.position.z);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -156,10 +163,10 @@ public class DisplayScript : MonoBehaviour {
 
             case 5: // MED_WAITER
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + 0.237f, 1.508f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + -0.27f, 1.322f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.54f, 0f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.54f, 0, cubeman.position.z);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + 0.891f, 1.127f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -0.107f, 1.305f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.3f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.3f, 0, cubeman.position.z);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -171,10 +178,10 @@ public class DisplayScript : MonoBehaviour {
 
             case 6: // MED_SUMO
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + 2.668f, 1.988f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + -1.65f, 1.94f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 1.27f, 0f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x, 0f, cubeman.position.z);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + 2.586f, 1.7f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -2.052f, 1.7f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.3f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.03f, 0f, cubeman.position.z);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -186,10 +193,10 @@ public class DisplayScript : MonoBehaviour {
 
             case 7: // MED_ATTACK
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + 0.76f, 3.23f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + 0.15f, 3.08f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.79f, 0f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.09f, 0f, cubeman.position.z);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + 0.201f, 2.368f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -0.854f, 2.354f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.3f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.3f, 0f, cubeman.position.z);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -201,10 +208,10 @@ public class DisplayScript : MonoBehaviour {
 
             case 8: // MED_DOWNFLEX
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + 0f, 0.9f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + 0f, 0.9f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.287f, 0f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.287f, 0f, cubeman.position.z);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + 0.651f, 0.144f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -0.651f, 0.144f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.55f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.55f, 0f, cubeman.position.z);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -216,10 +223,16 @@ public class DisplayScript : MonoBehaviour {
 
             case 9: // MED_KAMEHAMEHA
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + 1.468f, 2.286f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + 0.86f, 1.991f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.457f, 0.1f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.617f, -0.1f, cubeman.position.z);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + 1.465f, 1.009f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + 1.489f, 1.481f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.5f, -0.231f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.5f, -0.231f, cubeman.position.z);
+
+                // Resize the colliders.
+                LHCollider.transform.localScale = new Vector3(2, 2, 3);
+                RHCollider.transform.localScale = new Vector3(2, 2, 3);
+                RKCollider.transform.localScale = new Vector3(1, 2, 2);
+                LKCollider.transform.localScale = new Vector3(1, 2, 2);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -246,11 +259,10 @@ public class DisplayScript : MonoBehaviour {
 
             case 11: // HARD_ONELEGTPOSE
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + 1.819f, 2.369f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + -0.587f, 0.567f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.74f, -0.09f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + 0.298f, 0.2094f, cubeman.position.z  + -0.02f);
-                LKCollider.transform.localScale = new Vector3(1f, 1f, 0.5f);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + 2.132f, 1.692f, cubeman.position.z + -0.749f);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -2.133f, 1.861f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.2f, -0.231f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.5f, 0.119f, cubeman.position.z  + -0.536f);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -262,11 +274,10 @@ public class DisplayScript : MonoBehaviour {
 
             case 12: // HARD_ONELEGWAVE
                 // Position the colliders.
-                RHCollider.transform.position = new Vector3(cubeman.position.x + 2.108f, 2.244f, cubeman.position.z);
-                LHCollider.transform.position = new Vector3(cubeman.position.x + -0.645f, 1.09f, cubeman.position.z);
-                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.804f, 0.151f, cubeman.position.z);
-                LKCollider.transform.position = new Vector3(cubeman.position.x + 0.282f, 0.528f, cubeman.position.z + -1f);
-                LKCollider.transform.localScale = new Vector3(1f, 1f, 0.5f);
+                RHCollider.transform.position = new Vector3(cubeman.position.x + 1.116f, 2.524f, cubeman.position.z);
+                LHCollider.transform.position = new Vector3(cubeman.position.x + -1.005f, 0.591f, cubeman.position.z);
+                RKCollider.transform.position = new Vector3(cubeman.position.x + 0.33f, 0f, cubeman.position.z);
+                LKCollider.transform.position = new Vector3(cubeman.position.x + -0.33f, 0.141f, cubeman.position.z + -0.475f);
 
                 // Activate the colliders.
                 RHCollider.SetActive(true);
@@ -279,14 +290,10 @@ public class DisplayScript : MonoBehaviour {
         if (leftArmInPlace == true && rightArmInPlace == true &&
             leftLegInPlace == true && rightLegInPlace == true)
         {
-            Debug.Log("Pose correctly executed!");
-            checkMark.GetComponent<Image>().enabled = true;
+            StartCoroutine("ResetAfterDelay");
 
-            RHCollider.SetActive(false);
-            LHCollider.SetActive(false); 
-            RKCollider.SetActive(false); 
-            LKCollider.SetActive(false);
-
+            checkMark.SetActive(true);
+            
             StartCoroutine("RemoveAfterDelay");
         }
     }
@@ -294,10 +301,28 @@ public class DisplayScript : MonoBehaviour {
     IEnumerator RemoveAfterDelay()
     {
         yield return new WaitForSeconds(1f);
-        checkMark.GetComponent<Image>().enabled = false;
+        checkMark.SetActive(false);
         leftArmInPlace = false;
         rightArmInPlace = false;
         leftLegInPlace = false;
         rightLegInPlace = false;
+    }
+
+    IEnumerator ResetAfterDelay()
+    {
+        yield return new WaitForSeconds(1f);
+
+        if (leftArmInPlace == true && rightArmInPlace == true &&
+            leftLegInPlace == true && rightLegInPlace == true)
+        {
+            Debug.Log("Pose correctly executed!");
+
+            RHCollider.SetActive(false);
+            LHCollider.SetActive(false);
+            RKCollider.SetActive(false);
+            LKCollider.SetActive(false);
+
+            pose = 0;
+        }
     }
 }

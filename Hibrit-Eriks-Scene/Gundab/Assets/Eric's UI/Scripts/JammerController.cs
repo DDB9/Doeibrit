@@ -43,7 +43,7 @@ public class JammerController : MonoBehaviour {
 
     {
 
-        if (Input.GetKeyDown("p") && !beingHacked || Input.GetKeyDown("joystick button 1") && !beingHacked)
+        if (Input.GetKeyDown("p") && !beingHacked || Input.GetKeyDown("joystick button 4") && !beingHacked)
         {
             hackerImage.SetActive(true);
             TimerScript.startTime = Time.time;

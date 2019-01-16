@@ -64,6 +64,10 @@ public class Screenswitch : MonoBehaviour {
         explainEasyPixelFade.SetInteger("randomnumber", easyAnim.GetInteger("randomnumber"));
         explainEasyWireframe.SetInteger("randomnumber", easyAnim.GetInteger("randomnumber"));
 
+        if (easyAnim.GetInteger("randomnumber") == 1) DisplayScript.pose = 1;
+        if (easyAnim.GetInteger("randomnumber") == 2) DisplayScript.pose = 2;
+        if (easyAnim.GetInteger("randomnumber") == 3) DisplayScript.pose = 3;
+        if (easyAnim.GetInteger("randomnumber") == 4) DisplayScript.pose = 4;
     }
 
     public void MidExplain()
@@ -73,6 +77,12 @@ public class Screenswitch : MonoBehaviour {
         difficulty = 2;
         explainMidPixelFade.SetInteger("randomnumber", midAnim.GetInteger("randomnumber"));
         explainMidWireframe.SetInteger("randomnumber", midAnim.GetInteger("randomnumber"));
+
+        if (midAnim.GetInteger("randomnumber") == 1) DisplayScript.pose = 5;
+        if (midAnim.GetInteger("randomnumber") == 2) DisplayScript.pose = 6;
+        if (midAnim.GetInteger("randomnumber") == 3) DisplayScript.pose = 7;
+        if (midAnim.GetInteger("randomnumber") == 4) DisplayScript.pose = 8;
+        if (midAnim.GetInteger("randomnumber") == 5) DisplayScript.pose = 9;
     }
 
     public void HardExplain()
@@ -82,6 +92,11 @@ public class Screenswitch : MonoBehaviour {
         difficulty = 3;
         explainHardPixelFade.SetInteger("randomnumber", hardAnim.GetInteger("randomnumber"));
         explainHardWireframe.SetInteger("randomnumber", hardAnim.GetInteger("randomnumber"));
+
+        if (hardAnim.GetInteger("randomnumber") == 1) DisplayScript.pose = 10;
+        if (hardAnim.GetInteger("randomnumber") == 2) DisplayScript.pose = 11;
+        if (hardAnim.GetInteger("randomnumber") == 3) DisplayScript.pose = 12;
+        if (hardAnim.GetInteger("randomnumber") == 4) DisplayScript.pose = 13;
     }
 
     public void Choose() {
@@ -128,7 +143,7 @@ public class Screenswitch : MonoBehaviour {
     private void Update()
     {
         
-        if (Input.GetKeyDown("joystick button 3") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("a") || Input.GetKeyDown("c"))
+        if (Input.GetKeyDown("joystick button 3") || Input.GetKeyDown("joystick button 2") || Input.GetKeyDown("joystick button 1") || Input.GetKeyDown("c"))
         {
             Choose();
 
