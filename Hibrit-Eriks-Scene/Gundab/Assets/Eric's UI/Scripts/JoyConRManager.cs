@@ -44,7 +44,7 @@ public class JoyConRManager : MonoBehaviour {
 
         //+ Button = joystick button 9
         //- Button = joystick button 8
-        if (Input.GetKeyDown("joystick button 9"))
+        if (Input.GetKeyDown("joystick button 9") || Input.GetKeyDown("joystick button 8"))
         {
             DealDamage();
         }
