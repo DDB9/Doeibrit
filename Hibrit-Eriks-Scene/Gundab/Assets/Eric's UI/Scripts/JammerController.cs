@@ -50,7 +50,7 @@ public class JammerController : MonoBehaviour {
 
         if (Input.GetKeyDown("p") && !beingHacked || Input.GetKeyDown("joystick button 4") && !beingHacked)
         {
-            hackingSound.PlayOneShot(hackingSound.clip);
+            
 
             hackerImage.SetActive(true);
             TimerScript.startTime = Time.time;
@@ -104,7 +104,9 @@ public class JammerController : MonoBehaviour {
     {
         if(ScoreScript.points >= 50)
         {
+
             ScoreScript.points -= 50;
+            hackingSound.PlayOneShot(hackingSound.clip);
             hackerSend = true;
             StartCoroutine("Skrt");
             hackWindow.text += "\n" + DateTime.Now.ToString("HH:mm") + " - " + "HACK CONFIRMED: SCREEN HACK";
