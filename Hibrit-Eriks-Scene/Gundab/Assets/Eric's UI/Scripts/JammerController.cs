@@ -15,6 +15,8 @@ public class JammerController : MonoBehaviour {
 
     bool gotHacked = false;
 
+    AudioSource hackingSound;
+
     public Text hackWindow;
 
     //these are my awesome Camera Shake variables
@@ -35,6 +37,7 @@ public class JammerController : MonoBehaviour {
 
     private void Start()
     {
+        hackingSound = GetComponent<AudioSource>();
         hackWindow.text = ""; 
     }
 
@@ -45,6 +48,8 @@ public class JammerController : MonoBehaviour {
 
         if (Input.GetKeyDown("p") && !beingHacked || Input.GetKeyDown("joystick button 4") && !beingHacked)
         {
+            hackingSound.PlayOneShot(hackingSound.clip);
+
             hackerImage.SetActive(true);
             TimerScript.startTime = Time.time;
             beingHacked = true;

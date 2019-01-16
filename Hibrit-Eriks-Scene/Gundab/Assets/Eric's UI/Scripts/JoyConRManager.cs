@@ -11,19 +11,26 @@ public class JoyConRManager : MonoBehaviour {
     float dmgMid;
     float dmgHard;
 
-	void Start ()
-    {
-		
-	}
+    public AudioSource source;
+    AudioClip damageDealt;
+    AudioClip damageTaken;
 
-	void Update ()
+    void Start()
+    {
+        AudioSource[] audioSources = GetComponents<AudioSource>();
+        source = audioSources[0];
+        damageDealt = audioSources[0].clip;
+        damageTaken = audioSources[1].clip;
+    }
+
+    void Update()
     {
 
         dmgEasy = canvas.GetComponent<HealthBar>().damageEasy;
         dmgMid = canvas.GetComponent<HealthBar>().damageMid;
         dmgHard = canvas.GetComponent<HealthBar>().damageHard;
 
-        
+
         //B button
         if (Input.GetKeyDown("joystick button 2"))
         {
@@ -48,36 +55,40 @@ public class JoyConRManager : MonoBehaviour {
         {
             DealDamage();
         }
-        
 
 
 
 
 
-	}
+
+    }
 
 
 
     void DealDamage()
     {
+        source.PlayOneShot(damageDealt);
         canvas.GetComponent<HealthBar>().DealDamage();
         movingUI.GetComponent<Screenswitch>().Choose();
     }
 
     void TakeDamageEasy()
     {
+        source.PlayOneShot(damageTaken);
         canvas.GetComponent<HealthBar>().TakeDamage(dmgEasy);
         canvas.GetComponent<JammerController>().DamageTaken();
     }
 
     void TakeDamageMid()
     {
+        source.PlayOneShot(damageTaken);
         canvas.GetComponent<HealthBar>().TakeDamage(dmgMid);
         canvas.GetComponent<JammerController>().DamageTaken();
     }
 
     void TakeDamageHard()
     {
+        source.PlayOneShot(damageTaken);
         canvas.GetComponent<HealthBar>().TakeDamage(dmgHard);
         canvas.GetComponent<JammerController>().DamageTaken();
     }

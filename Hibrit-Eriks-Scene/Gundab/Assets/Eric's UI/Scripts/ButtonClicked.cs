@@ -13,7 +13,7 @@ public class ButtonClicked : MonoBehaviour {
     public static bool hardClicked;
 
     public static bool ready = false;
-
+    
 
     private void Awake()
     {
@@ -31,6 +31,7 @@ public class ButtonClicked : MonoBehaviour {
     {
         if (easyClicked)
         {
+
             easyPose.transform.position = Vector2.Lerp(easyPose.transform.position, new Vector2(0, 0), 2f * Time.deltaTime);
             StartCoroutine("Delay");
             ready = true;

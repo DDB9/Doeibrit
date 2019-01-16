@@ -21,7 +21,6 @@ public class ButtonScript : MonoBehaviour
 
     void Start()
     {
-
         //I need the button vars to be static, so I need this shitty game to locate them for me
         easyButton = GameObject.FindGameObjectWithTag("easy").GetComponent<Button>();
         midButton = GameObject.FindGameObjectWithTag("mid").GetComponent<Button>();

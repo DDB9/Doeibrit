@@ -96,7 +96,6 @@ public class Screenswitch : MonoBehaviour {
         if (hardAnim.GetInteger("randomnumber") == 1) DisplayScript.pose = 10;
         if (hardAnim.GetInteger("randomnumber") == 2) DisplayScript.pose = 11;
         if (hardAnim.GetInteger("randomnumber") == 3) DisplayScript.pose = 12;
-        if (hardAnim.GetInteger("randomnumber") == 4) DisplayScript.pose = 13;
     }
 
     public void Choose() {
