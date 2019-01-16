@@ -292,6 +292,8 @@ public class DisplayScript : MonoBehaviour {
         {
             StartCoroutine("ResetAfterDelay");
 
+            checkMark.SetActive(true);
+            
             StartCoroutine("RemoveAfterDelay");
         }
     }
@@ -299,7 +301,7 @@ public class DisplayScript : MonoBehaviour {
     IEnumerator RemoveAfterDelay()
     {
         yield return new WaitForSeconds(1f);
-        checkMark.GetComponent<Image>().enabled = false;
+        checkMark.SetActive(false);
         leftArmInPlace = false;
         rightArmInPlace = false;
         leftLegInPlace = false;
@@ -314,7 +316,6 @@ public class DisplayScript : MonoBehaviour {
             leftLegInPlace == true && rightLegInPlace == true)
         {
             Debug.Log("Pose correctly executed!");
-            checkMark.GetComponent<Image>().enabled = true;
 
             RHCollider.SetActive(false);
             LHCollider.SetActive(false);
