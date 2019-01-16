@@ -86,9 +86,11 @@ public class PoseRandomizer : MonoBehaviour {
                 ButtonScript.easyButton.interactable = true;
                 ButtonScript.midButton.interactable = true;
                 ButtonScript.hardButton.interactable = true;
+
                 //send the poses back to their original position
                 ButtonClicked.easyPose.transform.position = new Vector2(-181, 0);
                 ButtonClicked.hardPose.transform.position = new Vector2(183, 0);
+
                 //turn on the visuals
                 easyRen.enabled = true;
                 midRen.enabled = true;
