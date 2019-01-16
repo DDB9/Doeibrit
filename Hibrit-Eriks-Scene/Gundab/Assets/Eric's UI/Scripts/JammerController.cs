@@ -97,9 +97,9 @@ public class JammerController : MonoBehaviour {
 
     public void HackScreen()
     {
-        if(ScoreScript.points >= 40)
+        if(ScoreScript.points >= 50)
         {
-            ScoreScript.points -= 40;
+            ScoreScript.points -= 50;
             hackerSend = true;
             StartCoroutine("Skrt");
             hackWindow.text += "\n" + DateTime.Now.ToString("HH:mm") + " - " + "HACK CONFIRMED: SCREEN HACK";

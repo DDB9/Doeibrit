@@ -9,6 +9,8 @@ public class Screenswitch : MonoBehaviour {
     Animator animator;
     public bool explain;
 
+    public HealthBar healthbarScript;
+
     //difficulty = 0 = none chosen yet
     //difficulty = 1 = easy
     //difficulty = 2 = mid
@@ -111,6 +113,7 @@ public class Screenswitch : MonoBehaviour {
             if (easyNumber > maxPosesEasy)
             {
                 easyNumber = 1;
+                healthbarScript.damageEasy = 5;
             }
         }
 
@@ -122,6 +125,7 @@ public class Screenswitch : MonoBehaviour {
             if (midNumber > maxPosesMid)
             {
                 midNumber = 1;
+                healthbarScript.damageMid = 10;
             }
         }
 
@@ -133,6 +137,7 @@ public class Screenswitch : MonoBehaviour {
             if (hardNumber > maxPosesHard)
             {
                 hardNumber = 1;
+                healthbarScript.damageHard = 15;
             }
         }
 

@@ -4207,6 +4207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explain: 0
+  healthbarScript: {fileID: 1065511811}
   buttonScript: {fileID: 1065511809}
   hackWindow: {fileID: 481074938}
   easyAnim: {fileID: 33166918}
@@ -16096,9 +16097,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '40
-
-'
+  m_Text: 50
 --- !u!222 &991565972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17326,9 +17325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6379e50fdb0c054b918b547d08c57f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointReceivedEasy: 15
-  pointReceivedMid: 30
-  pointReceivedHard: 100
+  pointReceivedEasy: 5
+  pointReceivedMid: 20
+  pointReceivedHard: 40
   pointValueEasy: {fileID: 1754008453}
   pointValueMid: {fileID: 288907750}
   pointValueHard: {fileID: 1742198015}
